@@ -2,6 +2,8 @@
 #define CONNECT_H
 
 #include <QMainWindow>
+#include <QCryptographicHash>
+#include <QStandardItemModel>
 
 namespace Ui {
 class connect;
@@ -24,6 +26,7 @@ private slots:
 
     void loadSqlSession();
 
+    void save();
 private:
     Ui::connect *ui;
 };
