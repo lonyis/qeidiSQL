@@ -22,6 +22,8 @@ private slots:
 
     void on_button_move_clicked();
 
+    void loadSqlSession();
+
 private:
     Ui::connect *ui;
 };
